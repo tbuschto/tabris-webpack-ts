@@ -16,6 +16,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "allowJs": true,
+    "sourceMap": true,
     "typeRoots": ["node_modules/@types"]
   },
   "include": [
