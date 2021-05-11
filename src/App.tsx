@@ -12,7 +12,9 @@ export class App {
   }
 
   private showText = () => {
-    $(TextView).only().text = 'Tabris.js rocks!';
+    $(TextView).only().text = 'Look at the console';
+    console.log('You should able to CTRL-click this in Visual Studio code:');
+    console.trace();
   };
 
 }
